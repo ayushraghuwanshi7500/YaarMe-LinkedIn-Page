@@ -1,0 +1,366 @@
+body{
+  margin: 0;padding: 0;
+  font-family:Roboto;
+  overflow-x: hidden;
+  background-color: #f9f7f7;
+  font-weight: 100;
+}
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid var(--cool-gray-80,#283e4a);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 6px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.header{
+  background-color:var(--cool-gray-80,#283e4a);
+  width: 100vw;
+  height: 13vh;
+  margin-bottom: 20px;
+}
+.searchBtn{
+  border: 2px solid #283e4a;
+  padding-top: 20px;
+}
+.headerfaicons{
+padding-left: 2.3vw;
+color: white;
+padding-top: 0.8vh;
+text-align: center;
+}
+
+.headerfaicons:hover{
+  color: grey;
+}
+.head{
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.leftBody{
+  position: relative;
+  top: 20px;
+  width: 10%;
+  box-shadow: 2px 2px 2px 2px grey;
+    margin-bottom: 850px;
+    width: 13%;
+    float: left;
+    padding-right:  20px;
+    /* border: 2px solid red; */
+}
+.BannerImage{
+  width: 100%;
+  height: 38vh;
+}
+.YaarMeLogo{
+  position: relative;
+  bottom: 70px;
+  left: 20px;
+  float: left;
+}
+.SubHead1{
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+}
+.SubHead2{
+  position: relative;
+  bottom: 25px;
+  left: 30px;
+  color: gray;
+}
+.SubHead3{
+    position: relative;
+    bottom: 30px;
+    right: 80px;
+}
+#button1{
+  background-color: #187bcd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position:relative;
+  bottom: 40px;
+  left: 18px;
+
+}
+.button2{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white;
+  color:#187bcd;
+  border: 2px solid #187bcd;
+  position:relative;
+  bottom: 40px;
+  left: 18px;
+
+}
+.button2:hover{
+  color: white;
+  background-color: lightcyan;
+}
+.avisitwebsite{
+  text-decoration: none;
+  color: #187bcd;
+}
+.avisitwebsite:hover{
+color: #3f72af;
+text-decoration: underline;
+
+}
+.finalHeader{
+  color:  #187bcd;
+  position: relative;
+  bottom: 30px;
+  display: inline-block;
+  float: right;
+}
+.afinalHeader{
+  color:  #187bcd;
+}
+.afinalHeader:hover{
+  color: #3f72af;
+}
+.aleftBody{
+  text-decoration: none;
+  color: gray;
+}
+.aleftBodyCurrent{
+  text-decoration: none;
+    color:  #187bcd;
+}
+.aleftBodyCurrent{
+  color:  #3f72af;
+
+}
+.aleftBody:hover{
+    color: #3f72af;
+}
+.float-container{
+  /* border: 3px solid #fff; */
+    padding: 20px;
+}
+.centreBodyUp{
+
+  width: 48%;
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 20px;
+    /* border: 2px solid ; */
+    box-shadow: 2px 2px 2px 2px grey;
+    position: relative;
+    left: 50px;
+    top:20px;
+    margin-bottom: 20px;
+}
+.rightBody{
+
+  width: 26%;
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 20px;
+    /* border: 2px solid ; */
+    box-shadow: 2px 2px 2px 2px grey;
+    position: relative;
+    left: 105px;
+    top:20px;
+    margin-bottom: 20px;
+}
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+  border: 2px solid #e7e7e7;
+  float: right;
+}
+.aoverview{
+   text-decoration:none;
+}
+.aoverview:hover{
+color:  #3f72af;
+text-decoration: underline;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+li{
+  display: inline;
+  padding-left: 20px;
+}
+/* Media query for responsiveness */
+@media only screen and (max-width: 800px) {
+  .header{
+    visibility:collapse;
+
+  }
+  .head{
+  height: 20%;
+  }
+  .rightBody1, .centreBodyUp1, .mediaQ1 , .SubHead3 , .finalHeader{
+    visibility: collapse;
+  }
+  .leftBody{
+    width: 20%;
+
+
+  }
+/* .rightBody{
+  width: 10%;
+  /* position: relative;
+  top:0.5vh; */
+/* } */
+  /* .centreBodyUp{
+    width: 60%;
+    position: relative;
+    top:0.5vh;
+
+  } */
+  .rightBody{
+    width: 60%;
+    position: relative;
+    top:0.5vh;
+    left: 8.5vw;
+}
+  #centreBodyHead{
+    width: 80%;
+    position: absolute;
+    top: 150vh;
+  }
+  #peoplealsobtn4{
+    visibility:collapse;
+  }
+
+}
+@media only screen and (min-width:400px) and (max-width: 450px){
+  .header{
+    visibility:collapse;
+
+  }
+  .head{
+  height: 20%;
+  }
+  .rightBody1, .centreBodyUp1, .mediaQ1 , .SubHead3 , .finalHeader{
+    visibility: collapse;
+  }
+  .leftBody{
+    width: 20%;
+
+
+  }
+/* .rightBody{
+  width: 10%;
+  /* position: relative;
+  top:0.5vh; */
+/* } */
+  /* .centreBodyUp{
+    width: 60%;
+    position: relative;
+    top:0.5vh;
+
+  } */
+  .rightBody{
+    width: 60%;
+    position: relative;
+    top:0.5vh;
+    left: 8.5vw;
+}
+  #centreBodyHead{
+    width: 80%;
+    position: absolute;
+    top: 125vh;
+  }
+  #peoplealsobtn4{
+    visibility:collapse;
+  }
+}
+@media only screen and (min-width:300px) and (max-width: 400px){
+  .header{
+    visibility:collapse;
+
+  }
+  .head{
+  height: 20%;
+  }
+  .rightBody1, .centreBodyUp1, .mediaQ1 , .SubHead3 , .finalHeader{
+    visibility: collapse;
+  }
+  .leftBody{
+    width: 20%;
+
+
+  }
+/* .rightBody{
+  width: 10%;
+  /* position: relative;
+  top:0.5vh; */
+/* } */
+  /* .centreBodyUp{
+    width: 60%;
+    position: relative;
+    top:0.5vh;
+
+  } */
+  .rightBody{
+    width: 60%;
+    position: relative;
+    top:0.5vh;
+    left: 8.5vw;
+}
+  #centreBodyHead{
+    width: 80%;
+    position: absolute;
+    top: 130vh;
+  }
+  #peoplealsobtn4{
+    visibility:collapse;
+  }
+}
